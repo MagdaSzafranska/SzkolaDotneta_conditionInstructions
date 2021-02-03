@@ -7,31 +7,31 @@ namespace Warunki_operatory
         static void Main(string[] args)
         {
 
-            IsEqual();                        // Zadanie 1
+            //IsEqual();                        // Zadanie 1
 
-            IsEven();                         // Zadanie 2
+            //IsEven();                         // Zadanie 2
 
-            IsPositive();                     // Zadanie 3
+            //IsPositive();                     // Zadanie 3
 
-            IsBissextile();                   // Zadanie 4
+            //IsBissextile();                   // Zadanie 4
 
             MinimalAgeToPolitics();           // Zadanie 5
 
-            CategoryOfHeigh();                // Zadanie 6
+            //CategoryOfHeigh();                // Zadanie 6
 
-            TheHighestNumber();               // Zadanie 7
+            //TheHighestNumber();               // Zadanie 7
 
-            PointsForUniversity();            // Zadanie 8
+            //PointsForUniversity();            // Zadanie 8
 
-            Temperature();                    // Zadanie 9
+            //Temperature();                    // Zadanie 9
 
-            Triangle();                       // Zadanie 10
+            //Triangle();                       // Zadanie 10
 
-            ChangeGrade();                    // Zadanie 11
+            //ChangeGrade();                    // Zadanie 11
 
-            DayOfTheWeek();                   // Zadanie 12
+            //DayOfTheWeek();                   // Zadanie 12
 
-            Calculator();                     // Zadanie 13
+            //Calculator();                     // Zadanie 13
         }
         static void IsEqual()
         {
@@ -77,6 +77,18 @@ namespace Warunki_operatory
         {
             Console.Write("Podaj wiek aby sprawdzić, czy możesz być posłem, premierem, senatorem lub prezydentem: ");
             int age = int.Parse(Console.ReadLine());
+            if (age < 21)
+                Console.WriteLine($"Musisz poczekać jeszcze przynajmniej {21 - age} lat aby kandydować.\n");
+            if (age >= 21 && age < 30)
+                Console.WriteLine($"Mająć {age} możesz kandydować na posła.\n");
+            if (age >= 30 && age < 35)
+                Console.WriteLine($"Mając {age} możesz objąć stanowisko posła, senatora lub premiera.\n");
+            if (age >= 35)
+                Console.WriteLine($"Mając {age} lat możesz obejmować już na każde stanowisko.\n");
+
+            /*
+            Console.Write("Podaj wiek aby sprawdzić, czy możesz być posłem, premierem, senatorem lub prezydentem: ");
+            int age = int.Parse(Console.ReadLine());
             if (age >= 21)
             {
                 if (age >= 30)
@@ -93,6 +105,7 @@ namespace Warunki_operatory
             }
             else
                 Console.WriteLine($"Musisz poczekać jeszcze przynajmniej {21 - age} lat aby kandydować.\n");
+            */
         }
         static void CategoryOfHeigh()
         {

@@ -11,3 +11,16 @@ E:\PROGRAMMING\C#\PROGRAMS\TEMP\Szkoła Dotneta - ćwiczenia\Warunki_operatory\o
 E:\PROGRAMMING\C#\PROGRAMS\TEMP\Szkoła Dotneta - ćwiczenia\Warunki_operatory\obj\Debug\netcoreapp3.1\Warunki_operatory.dll
 E:\PROGRAMMING\C#\PROGRAMS\TEMP\Szkoła Dotneta - ćwiczenia\Warunki_operatory\obj\Debug\netcoreapp3.1\Warunki_operatory.pdb
 E:\PROGRAMMING\C#\PROGRAMS\TEMP\Szkoła Dotneta - ćwiczenia\Warunki_operatory\obj\Debug\netcoreapp3.1\Warunki_operatory.genruntimeconfig.cache
+E:\PROGRAMMING\C#\PROGRAMS\Szkoła_Dotneta\Szkoła Dotneta - ćwiczenia\Warunki_operatory\bin\Debug\netcoreapp3.1\Warunki_operatory.exe
+E:\PROGRAMMING\C#\PROGRAMS\Szkoła_Dotneta\Szkoła Dotneta - ćwiczenia\Warunki_operatory\bin\Debug\netcoreapp3.1\Warunki_operatory.deps.json
+E:\PROGRAMMING\C#\PROGRAMS\Szkoła_Dotneta\Szkoła Dotneta - ćwiczenia\Warunki_operatory\bin\Debug\netcoreapp3.1\Warunki_operatory.runtimeconfig.json
+E:\PROGRAMMING\C#\PROGRAMS\Szkoła_Dotneta\Szkoła Dotneta - ćwiczenia\Warunki_operatory\bin\Debug\netcoreapp3.1\Warunki_operatory.runtimeconfig.dev.json
+E:\PROGRAMMING\C#\PROGRAMS\Szkoła_Dotneta\Szkoła Dotneta - ćwiczenia\Warunki_operatory\bin\Debug\netcoreapp3.1\Warunki_operatory.dll
+E:\PROGRAMMING\C#\PROGRAMS\Szkoła_Dotneta\Szkoła Dotneta - ćwiczenia\Warunki_operatory\bin\Debug\netcoreapp3.1\Warunki_operatory.pdb
+E:\PROGRAMMING\C#\PROGRAMS\Szkoła_Dotneta\Szkoła Dotneta - ćwiczenia\Warunki_operatory\obj\Debug\netcoreapp3.1\Warunki_operatory.csprojAssemblyReference.cache
+E:\PROGRAMMING\C#\PROGRAMS\Szkoła_Dotneta\Szkoła Dotneta - ćwiczenia\Warunki_operatory\obj\Debug\netcoreapp3.1\Warunki_operatory.AssemblyInfoInputs.cache
+E:\PROGRAMMING\C#\PROGRAMS\Szkoła_Dotneta\Szkoła Dotneta - ćwiczenia\Warunki_operatory\obj\Debug\netcoreapp3.1\Warunki_operatory.AssemblyInfo.cs
+E:\PROGRAMMING\C#\PROGRAMS\Szkoła_Dotneta\Szkoła Dotneta - ćwiczenia\Warunki_operatory\obj\Debug\netcoreapp3.1\Warunki_operatory.csproj.CoreCompileInputs.cache
+E:\PROGRAMMING\C#\PROGRAMS\Szkoła_Dotneta\Szkoła Dotneta - ćwiczenia\Warunki_operatory\obj\Debug\netcoreapp3.1\Warunki_operatory.dll
+E:\PROGRAMMING\C#\PROGRAMS\Szkoła_Dotneta\Szkoła Dotneta - ćwiczenia\Warunki_operatory\obj\Debug\netcoreapp3.1\Warunki_operatory.pdb
+E:\PROGRAMMING\C#\PROGRAMS\Szkoła_Dotneta\Szkoła Dotneta - ćwiczenia\Warunki_operatory\obj\Debug\netcoreapp3.1\Warunki_operatory.genruntimeconfig.cache
