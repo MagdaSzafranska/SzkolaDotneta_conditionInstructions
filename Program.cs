@@ -17,7 +17,7 @@ namespace Warunki_operatory
 
             //MinimalAgeToPolitics();           // Zadanie 5
 
-            CategoryOfHeigh();                // Zadanie 6
+            //CategoryOfHeigh();                // Zadanie 6
 
             //TheHighestNumber();               // Zadanie 7
 
@@ -182,10 +182,24 @@ namespace Warunki_operatory
             Console.Write("Podaj temperaturę w Celsjuszach: ");
             double temp = double.Parse(Console.ReadLine());
 
+            if (temp < 0)
+                Console.WriteLine("Cholernie piździ!\n");
+            if (temp >= 0 && temp < 10)
+                Console.WriteLine("Zimno.\n");
+            if (temp >= 10 && temp < 20)
+                Console.WriteLine("Chłodno.\n");
+            if (temp >= 20 && temp < 30)
+                Console.WriteLine("W sam raz.\n");
+            if (temp >=30 && temp < 40)
+                Console.WriteLine("Zaczyna być słabo bo gorąco!\n");
+            if (temp >= 40)
+                Console.WriteLine("A weź! Wyprowadzam się na Alaskę!\n");
+
+            /*
             if (temp >= 0)
                 if (temp >= 10)
                     if (temp >= 20)
-                        if (temp >=30)
+                        if (temp >= 30)
                             if (temp >= 40)
                                 Console.WriteLine("A weź! Wyprowadzam się na Alaskę!\n");
                             else
@@ -198,6 +212,7 @@ namespace Warunki_operatory
                     Console.WriteLine("Zimno.\n");
             else
                 Console.WriteLine("Cholernie piździ!\n");
+            */
         }
         static void Triangle()
         {
