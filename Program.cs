@@ -15,9 +15,9 @@ namespace Warunki_operatory
 
             //IsBissextile();                   // Zadanie 4
 
-            MinimalAgeToPolitics();           // Zadanie 5
+            //MinimalAgeToPolitics();           // Zadanie 5
 
-            //CategoryOfHeigh();                // Zadanie 6
+            CategoryOfHeigh();                // Zadanie 6
 
             //TheHighestNumber();               // Zadanie 7
 
@@ -111,6 +111,19 @@ namespace Warunki_operatory
         {
             Console.Write("Podaj swoj wzrost (w cm) a powiem Ci kim jesteś: ");
             double heigh = double.Parse(Console.ReadLine());
+
+            if (heigh < 70)
+                Console.WriteLine("Jesteś gnomem. Say hello to Gollum!\n");
+            if (heigh >= 70 && heigh < 100)
+                Console.WriteLine("Jesteś niziołkiem. Say hello to Frodo!\n");
+            if (heigh >= 100 && heigh < 150)
+                Console.WriteLine("Jesteś krasnoludem. Say hallo to Gimli!\n");
+            if (heigh >= 150 && heigh < 200)
+                Console.WriteLine("Jesteś elfem. Say hello to Legolas!\n");
+            if (heigh >= 200)
+                Console.WriteLine("Jesteś czarodziejem. Say hallo to Gandalf!\n");
+
+            /*
             if (heigh >= 70)
                 if (heigh >= 100)
                     if (heigh >= 150)
@@ -125,6 +138,7 @@ namespace Warunki_operatory
 
             else
                 Console.WriteLine("Jesteś gnomem. Say hello to Gollum!\n");
+            */
         }
         static void TheHighestNumber()
         {
@@ -135,6 +149,9 @@ namespace Warunki_operatory
             Console.Write("trzecia liczba: ");
             double nr3 = double.Parse(Console.ReadLine());
             double max = nr1;
+
+            //bool v = nr3 > max;
+            //max = nr2 > max ? nr2 : v ? nr3 : nr1;
 
             if (nr2 > max)
                 max = nr2;
